@@ -1,0 +1,28 @@
+{
+  "name": "ar-portfolio",
+  "version": "1.0.0",
+  "description": "Afiq Ramli Web Design's Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AfiqRamli/ar-portfolio.git"
+  },
+  "author": "Afiq Ramli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AfiqRamli/ar-portfolio/issues"
+  },
+  "homepage": "https://github.com/AfiqRamli/ar-portfolio#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-util": "^3.0.8"
+  }
+}

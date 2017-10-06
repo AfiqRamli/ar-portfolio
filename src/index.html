@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ar Portfolio</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+	<header id="main-header">
+		<nav>
+			<div id="home-logo"></div>
+
+			<!-- Hamburger menu animation -->
+			<div id="hamburger-container">
+				<span class="bar1"></span>
+				<span class="bar2"></span>
+				<span class="bar3"></span>
+			</div>
+			<!-- Overlay Nav menu -->
+			<div id="topNav" class="overlay">
+				<div class="overlay-menu">
+					<a href="#" class="closeBtn">&times;</a>
+					<a href="#">Home</a>
+					<a href="#">Projects</a>
+					<a href="#">About</a>
+					<a href="#">Contact</a>
+				</div>
+			</div>
+			<!-- End Overlay Nav menu -->
+		</nav>
+		<div id="main-title">
+			<h1>I make websites</h1>
+			<h1>while enjoying </h1>
+			<h1>a cup of coffee.</h1>
+		</div>
+		<a href="#" class="cta-button contactBtn">Contact</a>
+		<a href="#" class="cta-button resumeBtn">résumé</a>
+	</header>
+
+	<div id="projects">
+			<div class="navBtn-wrapper prevBtn">
+					<a href="#/" id="prev" class="arrow">&#8810;</a>
+			</div>
+			<div class="navBtn-wrapper nextBtn">
+					<a href="#/" id="next" class="arrow">&#8811;</a>
+			</div>			
+			<ul id="slides">
+				<div id="project-counter">
+					<!-- <div class="works-counter-overlay"></div> -->
+					<span class="works-counter-current">01</span>
+					<span class="works-counter-separator"></span>
+					<span class="works-counter-total">06</span>
+				</div>
+				<li class="slide showing"></li>
+				<li class="slide"></li>
+				<li class="slide"></li>
+				<li class="slide"></li>
+				<li class="slide"></li>
+				<li class="slide"></li>				
+			</ul>		
+		<a href="#/" class="controls" id="pause">Pause</a>
+	</div>
+
+	<script src="assets/js/main.js"></script>
+</body>
+</html>
