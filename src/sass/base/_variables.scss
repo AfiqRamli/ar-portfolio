@@ -9,3 +9,44 @@ $main-gold: #bf9b30;
 $main-dark-grey: #2c2a28;
 $main-white: #ffffff;
 
+// Slider background color
+$project1:#f5f2eb;
+$project2:#ffe2f6;
+$project3:#ffefe8;
+$project4:#f1f1f1;
+$project5:#ffe44c;
+$project6:#ffefe8;
+
+// @media query Mixins & Variables
+$phone-breakpoints: "(min-width: 320px) and (max-width: 480px)";
+$tablet-breakpoints: "(min-width: 768px) and (max-width: 1023px)";
+$desktop-breakpoints: "(min-width: 1024px)";
+
+@mixin phone {
+  @media #{$phone-breakpoints} {
+    @content;
+}
+
+@mixin tablet {
+  @media #{$tablet-breakpoints} {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media #{$desktop-breakpoints} {
+    @content;
+  }
+}
+
+@mixin retina {
+  @media
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+    @content;
+  }
+}

@@ -6,7 +6,6 @@ const concat = require('gulp-concat');
 const rename = require('gulp-rename');
 const imageMin = require('gulp-imagemin');
 
-
 // Copy all HTML files
 gulp.task('copyHtml', () => {
 	gulp.src('./src/*.html')
