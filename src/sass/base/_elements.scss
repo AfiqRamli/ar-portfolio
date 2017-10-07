@@ -1,4 +1,7 @@
 
+
+@import "_variables.scss";
+
 * {
   font-size: 16px; }
 
@@ -7,7 +10,7 @@ body {
 
 h1 {
   color: #bf9b30;
-  font-family: "Playfair Display", "serif"; }
+  font-family: $main-font; }
 
 p {
   color: #2c2a28;
@@ -24,10 +27,10 @@ li {
 
 a {
   text-decoration: none;
-  font-family: "Playfair Display", "serif"; }
+  font-family: $main-font; }
 
 span {
-  font-family: "Playfair Display", "serif"; }
+  font-family: $main-font; }
 
 button {
   background: none;

@@ -1,0 +1,72 @@
+
+#main-header {
+  height: 100vh;
+  padding: 2.5em 2.5em 0 2.5em;
+}
+
+nav {
+
+  #home-logo {
+    height: 2.5em;
+    width: 2.5em;
+    background-color: $main-gold;
+    float: left;
+  }
+
+  #hamburger-container {
+    float: right;
+    cursor: pointer;
+  }
+
+  .bar1, .bar2, .bar3 {
+    display: block;
+    width: 2.5em;
+    height: 0.3em;
+    border-radius: 0.625em;
+    background-color: $main-gold;
+    margin: 0.375em 0;
+    z-index: 1;
+    transition: 0.4s;
+  }
+
+  .change .bar1 {
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+
+  .change .bar2 {
+    opacity: 0;
+  }
+
+  .change .bar3 {
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    background-color: rgba(240, 240, 240, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s ease-in-out;
+  }
+
+  .overlay-menu {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    margin-top: 1.87em;
+  }
+}
+
+#main-title {
+  clear: both;
+  margin-top: 8em;
+
+  h1 {
+    font-size: 5em;
+  }
+}
